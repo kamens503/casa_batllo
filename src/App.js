@@ -7,7 +7,7 @@ import banner from './assets/banner_full.jpg'
 function App() {
 	return (
 		<Banner img={banner}>
-			<Title>Un lugar agradable y acogedor para tus reuniones</Title>
+			<Title type="banner">Un lugar agradable y acogedor para tus reuniones</Title>
 			<Content>
 				Donde puedes disfrutar cafe, frappé, smoothie, pizza, crepa y pasta.
 			</Content>

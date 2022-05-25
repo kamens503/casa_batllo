@@ -5,6 +5,7 @@ export default function title(props) {
 		big: 'font-title text-[2rem] md:text-[4rem]',
 		subtitle: 'font-content md:text-[2rem] text-[1.2rem]',
 		menu: 'font-content md:text-[2rem] text-[1.7rem]',
+        banner: 'font-title text-[1.5rem] md:text-[2rem]'
 	};
 	return (
 		<>
