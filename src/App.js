@@ -6,7 +6,7 @@ import Title from './components/utils/Title';
 import banner from './assets/banner_full.jpg';
 import logoTitle from './assets/logoTitle.svg';
 import Margin from './components/utils/Margin';
-import Gallery from './components/modules/Gallery'
+import Gallery from './components/modules/Gallery';
 
 function App() {
 	return (

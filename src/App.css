@@ -556,22 +556,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2.5rem;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[200\] {
-  height: 200;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
-.h-\[80\] {
-  height: 80;
-}
-
 .h-\[80px\] {
   height: 80px;
 }
@@ -580,36 +564,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 30px;
 }
 
-.h-\[20px\] {
-  height: 20px;
-}
-
 .h-\[35px\] {
   height: 35px;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.w-48 {
-  width: 12rem;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
 .w-64 {
   width: 16rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-lg {
@@ -649,6 +613,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 .font-content {
   font-family: Poppins, sans-serif;
 }
@@ -677,10 +645,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1.5rem;
 }
 
-.text-\[42rem\] {
-  font-size: 42rem;
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -693,10 +657,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 768px) {
   .md\:h-\[200px\] {
     height: 200px;
-  }
-
-  .md\:h-\[\] {
-    height: ;
   }
 
   .md\:h-\[90px\] {
@@ -729,9 +689,5 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:text-\[4rem\] {
     font-size: 4rem;
-  }
-
-  .md\:text-\[42rem\] {
-    font-size: 42rem;
   }
 }
