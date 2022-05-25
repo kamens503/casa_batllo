@@ -568,6 +568,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 35px;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[12px\] {
+  height: 12px;
+}
+
+.h-\[8px\] {
+  height: 8px;
+}
+
 .w-64 {
   width: 16rem;
 }
@@ -669,6 +681,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:h-\[40px\] {
     height: 40px;
+  }
+
+  .md\:h-\[20px\] {
+    height: 20px;
+  }
+
+  .md\:h-\[10px\] {
+    height: 10px;
   }
 
   .md\:w-1\/2 {

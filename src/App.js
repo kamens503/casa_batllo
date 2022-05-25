@@ -13,10 +13,11 @@ function App() {
 		<>
 			<Banner img={banner}>
 				<img src={logoTitle} alt='logo Casa Batlló' className='w-64 m-auto' />
-				<Margin size='s' />
+				<Margin size='xs' />
 				<Title type='banner' tag='h1'>
 					Un lugar agradable y acogedor para tus reuniones
 				</Title>
+				<Margin size='xxs' />
 				<Content className='max-w-lg m-auto'>
 					Donde puedes disfrutar cafe, frappé, smoothie, pizza, crepa y pasta.
 				</Content>

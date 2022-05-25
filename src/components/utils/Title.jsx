@@ -14,7 +14,6 @@ export default function title(props) {
 			<Tag className={`${types[type || 'big']} ${color || 'text-white'} ${className || ''}`}>
 				{children}
 			</Tag>
-            <Margin size="title"></Margin>
 		</>
 	);
 } 
