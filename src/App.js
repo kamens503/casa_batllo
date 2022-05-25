@@ -1,23 +1,18 @@
-import "./App.css";
-
+import './App.css';
+import './assets/css/index.css';
+import Banner from './components/modules/Banner';
+import Content from './components/utils/Content';
+import Title from './components/utils/Title';
+import banner from './assets/banner_full.jpg'
 function App() {
-  const lg =
-    "container h-[320px] bg-red-400 grid grid-cols-1 md:grid-cols-2  gap-5";
-  return (
-    <article
-      id="banner"
-      className="w-[100vw] bg-blue-500 flex justify-center items-center h-[600px]"
-    >
-      <div className={lg}>
-        <div
-          id="ele1"
-          className="w-full h-full bg-green-300 hover:bg-purple-500 transition-all duration-1000"
-        ></div>
-        <div id="ele1" className="w-full h-full bg-green-300"></div>
-        <div id="ele1" className="w-full h-full bg-green-300"></div>
-      </div>
-    </article>
-  );
+	return (
+		<Banner img={banner}>
+			<Title>Un lugar agradable y acogedor para tus reuniones</Title>
+			<Content>
+				Donde puedes disfrutar cafe, frappé, smoothie, pizza, crepa y pasta.
+			</Content>
+		</Banner>
+	);
 }
 
 export default App;

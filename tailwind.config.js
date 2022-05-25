@@ -5,7 +5,13 @@ module.exports = {
             'title' : ['Calistoga', 'cursive'],
             'content': ['Poppins', 'sans-serif']
         },
-      extend: {},
+      extend: {
+          colors: {
+              'brand' : '#D96006',
+              'brand-yellow' : '#E29524'
+          },
+
+      },
     },
     plugins: [],
   }
