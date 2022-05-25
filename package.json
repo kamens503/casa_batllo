@@ -10,7 +10,7 @@
   },
   "scripts": {
     "tailwindcss": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/App.css --watch",
-    "start": "react-scripts start && npm run tailwindcss",
+    "start": "npm run tailwindcss & react-scripts start ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
