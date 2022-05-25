@@ -14,4 +14,4 @@ export default function title(props) {
 			</Tag>
 		</>
 	);
-}
+} 
