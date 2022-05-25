@@ -9,7 +9,7 @@ export default function title(props) {
 	};
 	return (
 		<>
-			<Tag className={`${types[type || 'big']} ${color || 'text-white'} ${className}`}>
+			<Tag className={`${types[type || 'big']} ${color || 'text-white'} ${className || ''}`}>
 				{children}
 			</Tag>
 		</>

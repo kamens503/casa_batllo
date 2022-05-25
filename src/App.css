@@ -502,6 +502,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 0;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .flex {
   display: flex;
 }
@@ -510,16 +514,68 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-\[90vh\] {
-  height: 90vh;
+.h-\[85vh\] {
+  height: 85vh;
 }
 
 .h-10 {
   height: 2.5rem;
 }
 
+.h-\[90vh\] {
+  height: 90vh;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[200\] {
+  height: 200;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
+.h-\[80\] {
+  height: 80;
+}
+
+.h-\[80px\] {
+  height: 80px;
+}
+
+.h-\[30px\] {
+  height: 30px;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .items-center {
@@ -559,20 +615,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: Calistoga, cursive;
 }
 
-.text-\[1\.2rem\] {
-  font-size: 1.2rem;
-}
-
 .text-\[1rem\] {
   font-size: 1rem;
 }
 
-.text-\[2rem\] {
-  font-size: 2rem;
+.text-\[1\.2rem\] {
+  font-size: 1.2rem;
 }
 
 .text-\[1\.7rem\] {
   font-size: 1.7rem;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
 }
 
 .text-\[1\.5rem\] {
@@ -593,6 +649,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
+  .md\:h-\[200px\] {
+    height: 200px;
+  }
+
+  .md\:h-\[\] {
+    height: ;
+  }
+
+  .md\:h-\[90px\] {
+    height: 90px;
+  }
+
+  .md\:h-\[65px\] {
+    height: 65px;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -601,8 +673,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     background-image: url('/src/assets/ripped_lg.svg');
   }
 
-  .md\:text-\[1rem\] {
-    font-size: 1rem;
+  .md\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
   }
 
   .md\:text-\[2rem\] {
@@ -611,6 +683,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:text-\[4rem\] {
     font-size: 4rem;
+  }
+
+  .md\:text-\[0\.8rem\] {
+    font-size: 0.8rem;
+  }
+
+  .md\:text-\[1rem\] {
+    font-size: 1rem;
   }
 
   .md\:text-\[42rem\] {
