@@ -466,6 +466,40 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 .absolute {
   position: absolute;
 }
@@ -502,6 +536,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 0;
 }
 
+<<<<<<< HEAD
 .mx-14 {
   margin-left: 3.5rem;
   margin-right: 3.5rem;
@@ -550,6 +585,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-8 {
   margin-bottom: 2rem;
+=======
+.m-auto {
+  margin: auto;
+>>>>>>> da06db538ba1d9a68b0f6476b93d5163059c3349
 }
 
 .flex {
@@ -568,12 +607,45 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2.5rem;
 }
 
+.h-\[80px\] {
+  height: 80px;
+}
+
+.h-\[30px\] {
+  height: 30px;
+}
+
+.h-\[35px\] {
+  height: 35px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[12px\] {
+  height: 12px;
+}
+
+.h-\[8px\] {
+  height: 8px;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
 .w-full {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .w-3\/4 {
   width: 75%;
+=======
+.max-w-lg {
+  max-width: 32rem;
+>>>>>>> da06db538ba1d9a68b0f6476b93d5163059c3349
 }
 
 .items-center {
@@ -584,12 +656,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: center;
 }
 
+<<<<<<< HEAD
 .justify-evenly {
   justify-content: space-evenly;
 }
 
 .self-center {
   align-self: center;
+=======
+.border-none {
+  border-style: none;
+>>>>>>> da06db538ba1d9a68b0f6476b93d5163059c3349
 }
 
 .bg-gradient-to-t {
@@ -615,6 +692,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-center {
   text-align: center;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .font-content {
@@ -650,6 +731,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1.5rem;
 }
 
+<<<<<<< HEAD
 .font-bold {
   font-weight: 700;
 }
@@ -659,6 +741,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(217 96 6 / var(--tw-text-opacity));
 }
 
+=======
+>>>>>>> da06db538ba1d9a68b0f6476b93d5163059c3349
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -674,6 +758,30 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
+  .md\:h-\[200px\] {
+    height: 200px;
+  }
+
+  .md\:h-\[90px\] {
+    height: 90px;
+  }
+
+  .md\:h-\[65px\] {
+    height: 65px;
+  }
+
+  .md\:h-\[40px\] {
+    height: 40px;
+  }
+
+  .md\:h-\[20px\] {
+    height: 20px;
+  }
+
+  .md\:h-\[10px\] {
+    height: 10px;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }

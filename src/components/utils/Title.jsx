@@ -1,3 +1,5 @@
+import Margin from "./Margin";
+
 export default function title(props) {
 	const { tag, children, type, className, color } = props;
 	const Tag = tag ? `${tag}` : 'h2';
@@ -9,9 +11,9 @@ export default function title(props) {
 	};
 	return (
 		<>
-			<Tag className={`${types[type || 'big']} ${color || 'text-white'} ${className}`}>
+			<Tag className={`${types[type || 'big']} ${color || 'text-white'} ${className || ''}`}>
 				{children}
 			</Tag>
 		</>
 	);
-}
+} 
