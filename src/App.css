@@ -536,30 +536,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 0;
 }
 
-<<<<<<< HEAD
-.mx-14 {
-  margin-left: 3.5rem;
-  margin-right: 3.5rem;
-}
-
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.mx-16 {
-  margin-left: 4rem;
-  margin-right: 4rem;
-}
-
-.mx-20 {
-  margin-left: 5rem;
-  margin-right: 5rem;
+.m-auto {
+  margin: auto;
 }
 
 .mx-auto {
@@ -571,24 +549,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 3.5rem;
 }
 
-.ml-auto {
-  margin-left: auto;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
 .mb-8 {
   margin-bottom: 2rem;
-=======
-.m-auto {
-  margin: auto;
->>>>>>> da06db538ba1d9a68b0f6476b93d5163059c3349
 }
 
 .flex {
@@ -619,33 +581,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 35px;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[12px\] {
-  height: 12px;
-}
-
 .h-\[8px\] {
   height: 8px;
-}
-
-.w-64 {
-  width: 16rem;
 }
 
 .w-full {
   width: 100%;
 }
 
-<<<<<<< HEAD
+.w-64 {
+  width: 16rem;
+}
+
 .w-3\/4 {
   width: 75%;
-=======
+}
+
 .max-w-lg {
   max-width: 32rem;
->>>>>>> da06db538ba1d9a68b0f6476b93d5163059c3349
 }
 
 .items-center {
@@ -656,17 +609,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: center;
 }
 
-<<<<<<< HEAD
 .justify-evenly {
   justify-content: space-evenly;
 }
 
-.self-center {
-  align-self: center;
-=======
 .border-none {
   border-style: none;
->>>>>>> da06db538ba1d9a68b0f6476b93d5163059c3349
 }
 
 .bg-gradient-to-t {
@@ -686,16 +634,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   object-fit: cover;
 }
 
-.object-center {
-  object-position: center;
-}
-
 .text-center {
   text-align: center;
-}
-
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .font-content {
@@ -731,24 +671,31 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1.5rem;
 }
 
-<<<<<<< HEAD
 .font-bold {
   font-weight: 700;
 }
 
-.text-brand {
+.text-\[\#D96006\] {
   --tw-text-opacity: 1;
   color: rgb(217 96 6 / var(--tw-text-opacity));
 }
 
-=======
->>>>>>> da06db538ba1d9a68b0f6476b93d5163059c3349
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\#D96006\] {
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
+.text-brand {
   --tw-text-opacity: 1;
   color: rgb(217 96 6 / var(--tw-text-opacity));
 }
@@ -772,14 +719,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:h-\[40px\] {
     height: 40px;
-  }
-
-  .md\:h-\[20px\] {
-    height: 20px;
-  }
-
-  .md\:h-\[10px\] {
-    height: 10px;
   }
 
   .md\:w-1\/2 {
