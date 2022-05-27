@@ -14,6 +14,7 @@ function App() {
 				subtitle='Donde puedes disfrutar cafe, frappé, smoothie, pizza, crepa y pasta.'
 				logo={logoTitle}
 			></Banner>
+            <Margin size="l"/>
 		</>
 	);
 }

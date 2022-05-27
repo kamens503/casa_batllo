@@ -7,7 +7,7 @@ module.exports = {
                 content: ['Poppins', 'sans-serif'],
             },
 			colors: {
-				brand: '#D96006',
+				'brand': '#D96006',
 				'brand-yellow': '#E29524',
 			},
 			backgroundImage: {

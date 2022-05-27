@@ -12,7 +12,7 @@ export default function banner(props) {
 		<>
 			<section id='banner' className='relative w-full h-[90vh] flex justify-center items-center'>
 				<div id='content-wrapper' className="relative z-20 text-center md:w-1/2">
-                <img src={logo} alt='logo Casa Batlló' className='w-64 m-auto' />
+                <img src={logo} alt='logo Casa Batlló' className='m-auto md:w-64 w-36' />
                     <Margin size='xs' />
                     <Title type='banner' tag='h1'>
                         {title}
@@ -22,8 +22,7 @@ export default function banner(props) {
                         {subtitle}
                     </Content>
 				</div>
-				<div
-					id='backdrop'
+				<div id='backdrop'
 					className={coverAll + ' z-10 bg-gradient-to-t from-black opacity-50'}
 				/>
                 <div className='absolute bottom-0 z-30 w-full h-10 md:bg-ripped-lg bg-ripped-xs' />
