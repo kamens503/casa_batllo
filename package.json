@@ -6,11 +6,12 @@
     "cra-template": "1.2.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
     "tailwindcss": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/App.css --watch",
-    "react-start" : "react-scripts start",
+    "react-start": "react-scripts start",
     "start": "npm-run-all -p -r react-start tailwindcss",
     "build": "react-scripts build",
     "test": "react-scripts test",
