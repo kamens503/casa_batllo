@@ -6,6 +6,8 @@ import logoTitle from './assets/logoTitle.svg';
 import Margin from './components/utils/Margin';
 import Schedule from './components/modules/Schedule';
 import Location from './components/modules/Location';
+import Gallery from './components/modules/Gallery';
+
 
 function App() {
 	return (
@@ -18,6 +20,7 @@ function App() {
 			></Banner>
 			<Schedule></Schedule>
 			<Location></Location>
+			<Gallery></Gallery>
 		</>
 	);
 }
