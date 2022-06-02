@@ -9,9 +9,9 @@ import DSC_5009 from "../../assets/galeria/DSC_5009.jpg"
 
 const Gallery = () => {
   return (<>
-    <Title className=' ml-14 mt-4 '>Galería</Title>
+    <Title className=' ml-14 mt-4  '>Galería</Title>
 <div className='flex flex-wrap justify-center  '>
-    <img className='w-1/4 m-1 rounded-lg    ' src = {DSC_4992} alt = "DSC_4990"/>
+    <img className='w-1/4 m-1 rounded-lg ' src = {DSC_4992} alt = "DSC_4990"/>
     <img className='w-1/4 m-1 rounded-lg ' src = {DSC_4993} alt = "DSC_4993"/>
     <img className='w-1/4 m-1 rounded-lg ' src = {DSC_4995} alt = "DSC_4995"/>
     <img className='w-1/4 m-1 rounded-lg ' src = {DSC_5000} alt = "DSC_5000"/>
