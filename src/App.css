@@ -539,6 +539,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.5rem;
 }
 
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
 .ml-14 {
   margin-left: 3.5rem;
 }
@@ -553,10 +557,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mt-7 {
-  margin-top: 1.75rem;
 }
 
 .flex {
@@ -684,9 +684,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: Calistoga, cursive;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-sm {
@@ -714,11 +714,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1.5rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -737,15 +732,41 @@ Ensure the default browser behavior of the `hidden` attribute.
   opacity: 0.5;
 }
 
-.opacity-0 {
-  opacity: 0;
-}
-
 .opacity-5 {
   opacity: 0.05;
 }
 
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.absolute-center {
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
+
+.group:hover .group-hover\:opacity-0 {
+  opacity: 0;
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
 @media (min-width: 768px) {
+  .md\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .md\:ml-8 {
+    margin-left: 2rem;
+  }
+
   .md\:h-\[200px\] {
     height: 200px;
   }
@@ -792,10 +813,5 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:text-\[4rem\] {
     font-size: 4rem;
-  }
-
-  .md\:text-green-800 {
-    --tw-text-opacity: 1;
-    color: rgb(22 101 52 / var(--tw-text-opacity));
   }
 }
