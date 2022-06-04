@@ -9,6 +9,7 @@ import Location from "./components/modules/Location";
 import Gallery from "./components/modules/Gallery";
 import Footer from "./components/modules/Footer";
 
+
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
       <Location></Location>
       <Gallery></Gallery>
 	  <Footer></Footer>
+    
     </>
   );
 }
