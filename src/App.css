@@ -549,12 +549,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .mt-3 {
@@ -585,12 +585,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
+.ml-0 {
+  margin-left: 0px;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
 .flex {
@@ -599,6 +599,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .aspect-video {
@@ -657,6 +661,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -667,6 +679,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .justify-evenly {
@@ -724,11 +740,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-title {
   font-family: Calistoga, cursive;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .text-sm {
@@ -809,12 +820,32 @@ Ensure the default browser behavior of the `hidden` attribute.
     bottom: 0px;
   }
 
+  .md\:ml-24 {
+    margin-left: 6rem;
+  }
+
+  .md\:ml-40 {
+    margin-left: 10rem;
+  }
+
   .md\:mb-8 {
     margin-bottom: 2rem;
   }
 
   .md\:ml-8 {
     margin-left: 2rem;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:inline-flex {
+    display: inline-flex;
   }
 
   .md\:h-\[200px\] {
@@ -841,6 +872,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 16rem;
   }
 
+  .md\:w-32 {
+    width: 8rem;
+  }
+
+  .md\:w-1\/5 {
+    width: 20%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -855,6 +894,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .md\:text-\[1rem\] {

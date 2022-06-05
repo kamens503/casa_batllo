@@ -12,6 +12,7 @@ import Menu from './components/modules/Menu';
 import menuData from './menuData';
 import Margin from './components/utils/Margin';
 
+
 function App() {
 	return (
 		<>
@@ -24,13 +25,16 @@ function App() {
 			<Margin size='l' />
 			<Menu data={menuData} />
 			<Margin size='l' />
+			<div className=' md:flex flex-row justify-evenly '>
 			<Schedule />
 			<Margin size='l' />
 			<Location />
+			</div>
 			<Margin size='l' />
 			<Gallery />
 			<Margin size='l' />
-			<Footer />
+			<Footer logo={logoTitle} />
+			
 		</>
 	);
 }
