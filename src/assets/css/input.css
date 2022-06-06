@@ -9,4 +9,7 @@
 		top: 50%;
 		position: absolute;
 	}
+    .no-wrap {
+        white-space: nowrap;
+    }
 }

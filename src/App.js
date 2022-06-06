@@ -28,20 +28,13 @@ function App() {
 			<Margin size='l' />
 			<Menu data={menuData} />
 			<Margin size='l' />
-<<<<<<< HEAD
-			<div className='flex-row md:flex justify-evenly'>
-=======
-			<div className=' md:flex flex-row justify-evenly '>
->>>>>>> 5fe9a062121592908d2fc632669b0345c318e7b1
 			<Schedule />
 			<Margin size='l' />
 			<Location />
-			</div>
 			<Margin size='l' />
 			<Gallery />
 			<Margin size='l' />
 			<Footer logo={logoTitle} />
-			
 		</>
 	);
 }
