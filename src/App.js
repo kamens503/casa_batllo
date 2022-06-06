@@ -11,10 +11,13 @@ import Footer from './components/modules/Footer';
 import Menu from './components/modules/Menu';
 import menuData from './menuData';
 import Margin from './components/utils/Margin';
+import Header from './components/modules/Header';
+
 
 function App() {
 	return (
 		<>
+		<Header />
 			<Banner
 				img={bgBanner}
 				title='Un lugar agradable y acogedor para tus reuniones'
@@ -24,13 +27,16 @@ function App() {
 			<Margin size='l' />
 			<Menu data={menuData} />
 			<Margin size='l' />
+			<div className='flex-row md:flex justify-evenly'>
 			<Schedule />
 			<Margin size='l' />
 			<Location />
+			</div>
 			<Margin size='l' />
 			<Gallery />
 			<Margin size='l' />
-			<Footer />
+			<Footer logo={logoTitle} />
+			
 		</>
 	);
 }
