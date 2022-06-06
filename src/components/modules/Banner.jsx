@@ -23,10 +23,10 @@ export default function banner(props) {
                     </Content>
 				</div>
 				<div id='backdrop'
-					className={coverAll + ' z-10 bg-gradient-to-t from-black opacity-50'}
+					className={coverAll + ' z-10 bg-gradient-to-t from-black opacity-50 bg-no-repeat'}
 				/>
-                <div className='absolute bottom-0 z-30 w-full h-10 md:bg-ripped-lg bg-ripped-xs' />
-				<img src={img} alt='' className={coverAll + " z-0 object-cover"}/>
+                <div className='absolute bottom-0 z-30 w-full h-10 bg-no-repeat md:bg-ripped-lg bg-ripped-xs mb-[-1rem]' />
+				<img src={img} alt='' className={coverAll + " z-0 object-cover "}/>
 			</section>
 		</>
 	);
