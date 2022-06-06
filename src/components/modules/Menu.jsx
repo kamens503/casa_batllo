@@ -1,21 +1,30 @@
 import Title from '../utils/Title';
+import Modal from './MenuModal';
+import menuData from '../../menuData';
+import { useState } from 'react';
 
 export default function Menu(props) {
-	function openModal() {
-		console.log('Abrir modal');
+	const [isOpen, setIsOpen] = useState(false);
+	const [currentMenu, setCurrentMenu] = useState([]);
+	function switchModal() {
+		setIsOpen(!isOpen);
+	}
+	function loadCurrentMenu(i) {
+		setCurrentMenu(menuData[i]);
 	}
 	const { data } = props;
 	return (
 		<>
+			<Modal data={currentMenu} isOpen={isOpen} onClick={switchModal} />
 			<section
 				id='menu'
 				className='container grid grid-cols-1 gap-8 m-auto md:gap-16 md:grid-cols-2'
 			>
-				{data.map((menu) => {
+				{data.map((menu, i) => {
 					return (
 						<button
 							className='relative w-full overflow-hidden rounded-3xl aspect-video group'
-							onClick={openModal}
+							onClick={() => {switchModal(); loadCurrentMenu(i)}}
 						>
 							<Title
 								className='relative z-10 transition-all md:mb-8 md:ml-8 group-hover:opacity-0 md:absolute md:bottom-0 md:text-left'
