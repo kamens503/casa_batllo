@@ -745,6 +745,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 8px;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[70px\] {
+  height: 70px;
+}
+
+.h-\[40px\] {
+  height: 40px;
+}
+
 .max-h-\[700px\] {
   max-height: 700px;
 }
@@ -923,6 +935,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .from-black {
   --tw-gradient-from: #000;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(0 0 0 / 0));
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-left-bottom {
+  background-position: left bottom;
 }
 
 .bg-no-repeat {
@@ -1160,6 +1180,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-\[70px\] {
+    height: 70px;
   }
 
   .lg\:w-16 {
