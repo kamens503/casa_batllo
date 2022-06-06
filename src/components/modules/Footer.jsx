@@ -1,17 +1,24 @@
 import React from 'react';
 import Title from '../utils/Title';
 import Content from '../utils/Content';
+import Asset2 from "../../assets/menu/footer/Asset 2.svg"
 
 
-const Footer = () => {
+const Footer = (props) => {
+  const { img, title, subtitle, logo } = props;
   return (<>
   
    
-    <div className='flex justify-evenly mt-10 mb-10  '>
+    <div className='flex justify-evenly  mb-10 '>
+      <div className='flex flex-col'>
+    <img className='hidden w-18   md:inline-flex ml-1 ' src= {Asset2} alt="Asset2" />
+    <img src={logo} alt='logo Casa Batlló' className='m-auto hidden md:w-32 w-10; md:inline-flex ' />
+    </div>
+    
         <div>
 
 
-            
+     
 <Content type="big" color="text-brand" >Contactanos </Content>
 <a href="https://wa.me/6865555775">
 <div className='flex mt-3  '>
@@ -21,14 +28,14 @@ const Footer = () => {
 </svg>
 
 
-<Content className= "text-xs font-bold mt-4" >686 555 5775 </Content></div></a>
+<Content type="small" className= " font-bold mt-4" >686 555 5775 </Content></div></a>
 
 <a href="mailto:visit@cafebatllo.com">
 <div className='flex mt-3 '>
 <svg className='mt-2 mr-2'  width="24" height="20" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M21.6 0H2.4C1.08 0 0.012 0.95625 0.012 2.125L0 14.875C0 16.0437 1.08 17 2.4 17H21.6C22.92 17 24 16.0437 24 14.875V2.125C24 0.95625 22.92 0 21.6 0ZM21.6 4.25L12 9.5625L2.4 4.25V2.125L12 7.4375L21.6 2.125V4.25Z" fill="white"/>
 </svg>
-<Content className= "text-xs mt-2 " >visit@cafebatllo.com </Content></div></a>
+<Content type="small" className= " mt-2 " >visit@cafebatllo.com </Content></div></a>
 
 
 <a href="https://www.google.com.ar/maps/place/Av.+Electricistas+2033,+Libertad,+21030+Libertad,+B.C.,+M%C3%A9xico/@32.6475882,-115.4557814,17z/data=!3m1!4b1!4m5!3m4!1s0x80d77068910527eb:0x5f20e747739df9a2!8m2!3d32.6475837!4d-115.4535927">
@@ -37,16 +44,41 @@ const Footer = () => {
 <path d="M8 0C3.57714 0 0 3.13 0 7C0 12.25 8 20 8 20C8 20 16 12.25 16 7C16 3.13 12.4229 0 8 0ZM8 9.5C6.42286 9.5 5.14286 8.38 5.14286 7C5.14286 5.62 6.42286 4.5 8 4.5C9.57714 4.5 10.8571 5.62 10.8571 7C10.8571 8.38 9.57714 9.5 8 9.5Z" fill="white"/>
 </svg>
 
-<Content className= "text-xs mt-2 " >Electricistas #2033<br></br>
+<Content type="small" className= " mt-2 " >Electricistas #2033<br></br>
 col. Libertad
  </Content>
  </div></a>
  
 </div>
+<div className='hidden md:block '>
+
+<Content type="big" color="text-brand">Menú </Content>
+<div className='flex justify-between'>
+<Content type="small" className= " font-bold mt-7"  >Pizza </Content>
+<Content type="small" className= " font-bold mt-7"  >Pasta </Content>
+<Content type="small" className= " font-bold mt-7"  >Bebidas </Content>
+</div>
+
+<div className='flex justify-between'>
+<Content type="small" className= " font-bold mt-7"  >Antojos  </Content>
+<Content type="small" className= " font-bold mt-7"  >Postres </Content>
+<Content type="small" className= " font-bold mt-7"  >Crepas </Content>
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
 <div>
 
-<Content color="text-brand">Plataformas </Content>
-<Content className= "text-xs font-bold mt-7"  >Didi </Content>
+<Content type="big" color="text-brand">Plataformas </Content>
+<Content type="small" className= " font-bold mt-7"  >Didi </Content>
 
 </div>
 </div>

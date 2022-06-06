@@ -549,6 +549,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
+<<<<<<< HEAD
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -564,12 +565,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 0.75rem;
 }
 
+=======
+>>>>>>> 5fe9a062121592908d2fc632669b0345c318e7b1
 .mb-10 {
   margin-bottom: 2.5rem;
 }
 
+<<<<<<< HEAD
 .ml-1 {
   margin-left: 0.25rem;
+=======
+.ml-2 {
+  margin-left: 0.5rem;
+>>>>>>> 5fe9a062121592908d2fc632669b0345c318e7b1
 }
 
 .mt-3 {
@@ -604,6 +612,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 0px;
 }
 
+<<<<<<< HEAD
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -626,6 +635,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .inline-block {
   display: inline-block;
+=======
+.ml-1 {
+  margin-left: 0.25rem;
+>>>>>>> 5fe9a062121592908d2fc632669b0345c318e7b1
 }
 
 .flex {
