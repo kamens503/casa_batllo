@@ -12,13 +12,12 @@ import Menu from './components/modules/Menu';
 import menuData from './menuData';
 import Margin from './components/utils/Margin';
 import Header from './components/modules/Header';
-
-
+import Whatsapp from './components/modules/Whatsapp';
 
 function App() {
 	return (
 		<>
-		<Header />
+			<Header />
 			<Banner
 				img={bgBanner}
 				title='Un lugar agradable y acogedor para tus reuniones'
@@ -35,6 +34,7 @@ function App() {
 			<Gallery />
 			<Margin size='l' />
 			<Footer logo={logoTitle} />
+			<Whatsapp phone='5216862163805' />
 		</>
 	);
 }
